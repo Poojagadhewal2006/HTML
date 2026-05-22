@@ -1,0 +1,58 @@
+#parent{
+    border: 2px solid black;
+    height: 500px;
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: baseline; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+
+     /* align-items: center;      /* PERFACTLY CENTER ME LANE KE LIYE */
+     /* justify-content: center; */ 
+
+     /* align-items: end;
+     /* justify-content: end; */       /* PERFACTLY END ME LANE KE LIYE */
+
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    
+     /* flex-wrap: wrap; */
+
+     /* position: relative;  */   /* 4 BOX KO  ALAG ALAG CONE ME LANE KE LIYE */
+
+}
+#parent div{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+#one{
+    background-color: gold;
+    /* flex-basis: px; */
+    /* flex-shrink: 2;*/  /* INSPECT KARNE PAR YADI SPACE RAHEGA TO  JIS CHILD PAR LGA H BO STRINK YANI CHOTA HOTA JAYEGA */
+    flex-grow: 2;
+}
+#two{
+    background-color: blue;
+     flex-grow: 1;
+    /* position: absolute;     /* 4 BOX KO  ALAG ALAG CONE ME LANE KE LIYE */
+   /* top: 400px; */
+}
+#three{
+    background-color: green;
+    flex-grow: 3;
+    /* position: absolute;     /* 4 BOX KO  ALAG ALAG CONE ME LANE KE LIYE */
+   /* top: 400px;
+    right: 0px; */
+}
+#four{
+    background-color: brown ;
+    flex-grow: 4;
+}
