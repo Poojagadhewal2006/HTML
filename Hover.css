@@ -1,0 +1,41 @@
+#parent{
+    border: 2px solid red;
+    height: 600px;
+    /* width: 400px; */
+}
+.one{
+    height: 100px;
+    width: 100px;
+    transition: 3s;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent:hover .one{
+    margin-left: 643px;
+    border-radius: 50%;
+    /* transform: rotate(150deg); */
+    /* transform: scale(2); */
+    /* transform: translate(4); */
+} 
+#one{
+    background-color: blue;
+    transition-timing-function:  ease-in;
+} 
+#two{
+    background-color: brown;
+    transition-timing-function: ease-out;
+}
+#three{
+    background-color: aqua;
+    transition-timing-function: ease-in-out;
+}
+#four{
+    background-color: blueviolet;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#five{
+    background-color: yellowgreen;
+    transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
